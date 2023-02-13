@@ -4,8 +4,9 @@ on:
   push:
 
 jobs:
-  name: Test job
-  runs-on: ubuntu-latest
-  steps:
-    - name: Invoke workflow
-      uses: kylelaker/basic-test-action@test@1
+  test:
+    name: Test job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invoke workflow
+        uses: kylelaker/basic-test-action@test@1
