@@ -12,7 +12,7 @@ jobs:
         run:
           echo "TEST"
       - name: Invoke workflow
-        uses: kylelaker/basic-test-action@test%401
+        uses: kylelaker/basic-test-action@test@1
       - name: Print test
         run:
           echo "TEST"
