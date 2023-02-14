@@ -8,5 +8,11 @@ jobs:
     name: Test job
     runs-on: ubuntu-latest
     steps:
+      - name: Print test
+        run:
+          echo "TEST"
       - name: Invoke workflow
         uses: kylelaker/basic-test-action@test@1
+      - name: Print test
+        run:
+          echo "TEST"
